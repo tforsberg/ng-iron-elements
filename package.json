@@ -20,6 +20,19 @@
     "rxjs": "5.0.1",
     "zone.js": "^0.7.2"
   },
+  "devDependencies": {
+    "@angular/compiler-cli": "^2.4.3",
+    "@angular/platform-browser-dynamic": "^2.4.3",
+    "@angular/platform-server": "^2.4.3",
+    "@angular/router": "^3.2.0",
+    "@types/rx": "^2.5.33",
+
+
+    "node-sass": "^3.4.2",
+    "stylelint": "^7.7.0",
+    "tslint": "^3.13.0",
+    "typescript": "~2.0.10"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thomaspink/ng-iron-elements.git"
