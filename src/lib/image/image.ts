@@ -11,8 +11,8 @@ export type Sizing = 'cover' | 'contain';
  */
 @Component({
   selector: 'iron-image, [iron-image]',
-  templateUrl: 'button.html',
-  styleUrls: ['button.css']
+  templateUrl: 'image.html',
+  styleUrls: ['image.css']
 })
 export class IronImage {
 
@@ -111,10 +111,10 @@ private _preload: boolean = false;
   exports: [IronImage],
   declarations: [IronImage],
 })
-export class MdButtonModule {
+export class IronImageModule {
   static forRoot(): ModuleWithProviders {
     return {
-      ngModule: MdButtonModule,
+      ngModule: IronImageModule,
       providers: []
     };
   }
