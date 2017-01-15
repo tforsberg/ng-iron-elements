@@ -1,0 +1,37 @@
+{
+  "name": "ng-iron-elements",
+  "version": "0.0.1",
+  "description": "Iron Elements for Angular 2",
+  "main": "src/lib/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">= 5.4.1 < 7"
+  },
+  "dependencies": {
+    "@angular/common": "^2.4.3",
+    "@angular/compiler": "^2.4.3",
+    "@angular/core": "^2.4.3",
+    "@angular/forms": "^2.4.3",
+    "@angular/http": "^2.4.3",
+    "@angular/platform-browser": "^2.4.3",
+    "core-js": "^2.4.1",
+    "rxjs": "5.0.1",
+    "zone.js": "^0.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomaspink/ng-iron-elements.git"
+  },
+  "keywords": [
+    "angular2",
+    "iron-elements"
+  ],
+  "author": "Thomas Pink",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomaspink/ng-iron-elements/issues"
+  },
+  "homepage": "https://github.com/thomaspink/ng-iron-elements#readme"
+}
